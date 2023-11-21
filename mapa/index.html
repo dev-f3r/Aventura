@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+
+<html>
+<!------------------------------------------------------------------------------------------------------->
+
+<head>
+    <!------------------------------------------------------------------------------------------------------->
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="css/mapa.css">
+    <link rel="stylesheet" type="text/css" href="css/personaje.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<!------------------------------------------------------------------------------------------------------->
+
+<body oncontextmenu='return false' onkeydown='return false' onselectstart='return false' ondragstart="return false">
+
+    <!------------------------------------------------------------------------------------------------------->
+
+
+    <div class="layout">
+
+        <div class="gridMapa">
+
+            <div class="itemMapa">
+
+                <img src="img/seleccionar.png">
+
+            </div>
+
+
+            <div class="itemMapa">
+
+                <img src="img/editar.png">
+
+            </div>
+
+
+            
+            <div class="itemMapa" id="APP">
+                
+                <img src="img/pj.png">
+                
+            </div>
+        
+
+            <div class="itemMapa">
+
+                <a href="http://battlerol.net"><span class="texto">BattleRol.net</span></a>
+
+            </div>
+
+
+            <div class="itemMapa" id="letras">
+
+                <img src="img/mapas/ui/LETRAS.png">
+
+            </div>
+
+
+            <div class="itemMapa" id="cuadricula">
+
+                <img src="img/mapas/ui/GRILLA.png">
+
+            </div>
+
+
+            <div class="itemMapa">
+
+                <img src="img/mapas/ui/PUNTOS.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <span class="texto">MAPA DEL MUNDO</span>
+
+            </div>
+
+            <div class="itemMapa" id="mapa" style="width: 100%; height: 100%;">
+
+                <div class="gridCuadricula">
+
+                    <div class="itemCuadricula" id="A1">
+                        <span class="textoMapa" id="A1Txt">A1</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="A2">
+                        <span class="textoMapa" id="A2Txt">A2</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="A3">
+                        <span class="textoMapa" id="A3Txt">A3</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="A4">
+                        <span class="textoMapa" id="A4Txt">A4</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="A5">
+                        <span class="textoMapa" id="A5Txt">A5</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="A6">
+                        <span class="textoMapa" id="A6Txt">A6</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="A7">
+                        <span class="textoMapa" id="A7Txt">A7</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="A8">
+                        <span class="textoMapa" id="A8Txt">A8</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="A9">
+                        <span class="textoMapa" id="A9Txt">A9</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="B1">
+                        <span class="textoMapa" id="B1Txt">B1</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="B2">
+                        <span class="textoMapa" id="B2Txt">B2</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="B3">
+                        <span class="textoMapa" id="B3Txt">B3</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="B4">
+                        <span class="textoMapa" id="B4Txt">B4</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="B5">
+                        <span class="textoMapa" id="B5Txt">B5</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="B6">
+                        <span class="textoMapa" id="B6Txt">B6</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="B7">
+                        <span class="textoMapa" id="B7Txt">B7</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="B8">
+                        <span class="textoMapa" id="B8Txt">B8</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="B9">
+                        <span class="textoMapa" id="B9Txt">B9</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="C1">
+                        <span class="textoMapa" id="C1Txt">C1</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="C2">
+                        <span class="textoMapa" id="C2Txt">C2</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="C3">
+                        <span class="textoMapa" id="C3Txt">C3</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="C4">
+                        <span class="textoMapa" id="C4Txt">C4</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="C5">
+                        <span class="textoMapa" id="C5Txt">C5</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="C6">
+                        <span class="textoMapa" id="C6Txt">C6</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="C7">
+                        <span class="textoMapa" id="C7Txt">C7</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="C8">
+                        <span class="textoMapa" id="C8Txt">C8</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="C9">
+                        <span class="textoMapa" id="C9Txt">C9</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="D1">
+                        <span class="textoMapa" id="D1Txt">D1</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="D2">
+                        <span class="textoMapa" id="D2Txt">D2</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="D3">
+                        <span class="textoMapa" id="D3Txt">D3</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="D4">
+                        <span class="textoMapa" id="D4Txt">D4</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="D5">
+                        <span class="textoMapa" id="D5Txt">D5</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="D6">
+                        <span class="textoMapa" id="D6Txt">D6</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="D7">
+                        <span class="textoMapa" id="D7Txt">D7</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="D8">
+                        <span class="textoMapa" id="D8Txt">D8</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="D9">
+                        <span class="textoMapa" id="D9Txt">D9</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="E1">
+                        <span class="textoMapa" id="E1Txt">E1</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="E2">
+                        <span class="textoMapa" id="E2Txt">E2</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="E3">
+                        <span class="textoMapa" id="E3Txt">E3</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="E4">
+                        <span class="textoMapa" id="E4Txt">E4</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="E5">
+                        <span class="textoMapa" id="E5Txt">E5</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="E6">
+                        <span class="textoMapa" id="E6Txt">E6</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="E7">
+                        <span class="textoMapa" id="E7Txt">E7</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="E8">
+                        <span class="textoMapa" id="E8Txt">E8</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="E9">
+                        <span class="textoMapa" id="E9Txt">E9</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="F1">
+                        <span class="textoMapa" id="F1Txt">F1</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="F2">
+                        <span class="textoMapa" id="F2Txt">F2</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="F3">
+                        <span class="textoMapa" id="F3Txt">F3</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="F4">
+                        <span class="textoMapa" id="F4Txt">F4</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="F5">
+                        <span class="textoMapa" id="F5Txt">F5</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="F6">
+                        <span class="textoMapa" id="F6Txt">F6</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="F7">
+                        <span class="textoMapa" id="F7Txt">F7</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="F8">
+                        <span class="textoMapa" id="F8Txt">F8</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="F9">
+                        <span class="textoMapa" id="F9Txt">F9</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="G1">
+                        <span class="textoMapa" id="G1Txt">G1</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="G2">
+                        <span class="textoMapa" id="G2Txt">G2</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="G3">
+                        <span class="textoMapa" id="G3Txt">G3</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="G4">
+                        <span class="textoMapa" id="G4Txt">G4</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="G5">
+                        <span class="textoMapa" id="G5Txt">G5</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="G6">
+                        <span class="textoMapa" id="G6Txt">G6</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="G7">
+                        <span class="textoMapa" id="G7Txt">G7</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="G8">
+                        <span class="textoMapa" id="G8Txt">G8</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="G9">
+                        <span class="textoMapa" id="G9Txt">G9</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="H1">
+                        <span class="textoMapa" id="H1Txt">H1</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="H2">
+                        <span class="textoMapa" id="H2Txt">H2</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="H3">
+                        <span class="textoMapa" id="H3Txt">H3</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="H4">
+                        <span class="textoMapa" id="H4Txt">H4</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="H5">
+                        <span class="textoMapa" id="H5Txt">H5</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="H6">
+                        <span class="textoMapa" id="H6Txt">H6</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="H7">
+                        <span class="textoMapa" id="H7Txt">H7</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="H8">
+                        <span class="textoMapa" id="H8Txt">H8</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="H9">
+                        <span class="textoMapa" id="H9Txt">H9</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="I1">
+                        <span class="textoMapa" id="I1Txt">I1</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="I2">
+                        <span class="textoMapa" id="I2Txt">I2</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="I3">
+                        <span class="textoMapa" id="I3Txt">I3</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="I4">
+                        <span class="textoMapa" id="I4Txt">I4</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="I5">
+                        <span class="textoMapa" id="I5Txt">I5</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="I6">
+                        <span class="textoMapa" id="I6Txt">I6</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="I7">
+                        <span class="textoMapa" id="I7Txt">I7</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="I8">
+                        <span class="textoMapa" id="I8Txt">I8</span>
+                    </div>
+
+                    <div class="itemCuadricula" id="I9">
+                        <span class="textoMapa" id="I9Txt">I9</span>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <div class="itemMapa">
+
+                <span class="texto" id="cuadranteTxt">CUADRANTE</span>
+
+            </div>
+
+
+            <div class="itemMapa">
+
+                <span class="texto" id="consolaMapa" style="overflow-y: scroll; max-width: 100%; max-height: 100%; margin:0  auto;">CONSOLA</span>
+
+            </div>
+
+
+            
+            <div class="itemMapa">
+
+                <img src="img/nada.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <img src="img/nada.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <img src="img/nada.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <img src="img/mapas/ui/NO.png">
+
+            </div>
+
+            <div class="itemMapa" id="N">
+
+                <img src="img/mapas/ui/N.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <img src="img/mapas/ui/NE.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <img src="img/nada.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <img src="img/nada.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <img src="img/nada.png">
+
+            </div>
+
+
+
+
+
+            <div class="itemMapa">
+
+                <img src="img/nada.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <img src="img/nada.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <img src="img/nada.png">
+
+            </div>
+
+            
+            <div class="itemMapa" id="O">
+                
+                <img src="img/mapas/ui/O.png">
+                
+            </div>
+
+            <div class="itemMapa" id="menos">
+
+                <img src="img/mapas/ui/mundito.png">
+
+            </div>
+
+            <div class="itemMapa" id="E">
+
+                <img src="img/mapas/ui/E.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <img src="img/nada.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <img src="img/nada.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <img src="img/nada.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <img src="img/nada.png">
+
+            </div>
+
+
+
+
+
+            <div class="itemMapa">
+
+                <img src="img/nada.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <img src="img/nada.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <img src="img/mapas/ui/SO.png">
+
+            </div>
+
+
+
+            <div class="itemMapa" id="S">
+
+                <img src="img/mapas/ui/S.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <img src="img/mapas/ui/SE.png">
+
+            </div>
+
+
+            <div class="itemMapa">
+
+                <img src="img/nada.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <img src="img/nada.png">
+
+            </div>
+
+            <div class="itemMapa">
+
+                <img src="img/nada.png">
+
+            </div>
+
+
+
+
+
+        </div><!----->
+
+
+    </div>
+
+    <!------------------------------------------------------------------------------------------------------->
+
+    <script type="text/javascript" src="js/variablesmapa.js"></script>
+    <script type="text/javascript" src="js/funcionesmapa.js"></script>
+
+
+</body>

@@ -1,0 +1,82 @@
+.gridEvolucion{
+
+    display: none;
+	width: 100vW ;
+	height: 83.25vh;
+	grid-template-columns:  repeat(9,11.11vw);
+    grid-template-rows: 
+    
+    5.55vh 
+    11.1vh 
+    5.55vh 
+    11.1vh 
+    5.55vh 
+    11.1vh 
+    5.55vh 
+    11.1vh
+    5.55vh 
+    11.1vh;
+
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 11.11vh;
+    background-color: #ffffff;
+    text-align: center;
+    z-index: 100;
+    
+}
+
+
+.itemEvolucion{
+
+    display: flex;
+	width: 100%;
+	height: 100%;
+	outline: solid 2px #000000;
+	z-index: 100;
+	vertical-align: center;
+    align-items: center;
+    background-color: #ffffff;
+    outline: solid #000000 1px;
+
+}
+
+
+.itemEvolucion:nth-child(1){
+
+    grid-column: 1/ span 9;
+    grid-row: 1 / span 1;
+    
+}
+
+
+.itemEvolucion:nth-child(11){
+
+    grid-column: 1/ span 9;
+    grid-row: 3 / span 1;
+    
+}
+
+
+.itemEvolucion:nth-child(21){
+
+    grid-column: 1/ span 9;
+    grid-row: 5 / span 1;
+    
+}
+
+.itemEvolucion:nth-child(31){
+
+    grid-column: 1/ span 9;
+    grid-row: 7 / span 1;
+    
+}
+
+
+.itemEvolucion:nth-child(41){
+
+    grid-column: 1/ span 9;
+    grid-row: 9 / span 1;
+    
+}
+

@@ -1,0 +1,610 @@
+/* RAZA */
+.gridModalRaza{
+    display: none;
+	width: 33.33vW ;
+	height: 16.65vh;
+	grid-template-columns: 33.33%  33.33%  33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    position: absolute;
+    margin-left: 33.33%;
+    margin-top: 65%;
+    outline: solid #000000 19px;
+    border: solid #ffffff 19px;
+    text-align: center;
+    z-index: 300;
+    
+    
+}
+
+.itemModalRaza{
+    display: flex;
+	width: 100%;
+	height: 100%;
+	outline: solid 2px #000000;
+	z-index: 300;
+	vertical-align: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.itemModalRaza:nth-child(1){
+    grid-column: 1/ span 2;
+    grid-row: 1 / span 1;
+    
+}
+/* FIN RAZA */
+
+
+
+
+
+
+
+/* ARMAS */
+.gridModalArmas{
+    display: none;
+	width: 33.33vW ;
+	height: 27.75vh;
+	grid-template-columns: 33.33%  33.33%  33.33%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    position: absolute;
+    margin-left: 33.33%;
+    margin-top: 65%;
+    outline: solid #000000 19px;
+    border: solid #ffffff 19px;
+    text-align: center;
+    z-index: 300;
+    
+    
+}
+
+.itemModalArmas{
+    display: flex;
+	width: 100%;
+	height: 100%;
+	outline: solid 2px #000000;
+	z-index: 300;
+	vertical-align: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.itemModalArmas:nth-child(1){
+    grid-column: 1/ span 2;
+    grid-row: 1 / span 1;
+    
+}
+/* FIN ARMAS */
+
+
+
+
+
+.gridModalEquipo{
+    display: none;
+	width: 33.33vW ;
+	height: 22.25vh;
+	grid-template-columns: 33.33%  33.33%  33.33%;
+    grid-template-rows: 25% 25% 25% 25%;
+    position: absolute;
+    margin-left: 33.33%;
+    margin-top: 65%;
+    outline: solid #000000 19px;
+    border: solid #ffffff 19px;
+    text-align: center;
+    z-index: 300;
+    
+    
+}
+
+.itemModalEquipo{
+    display: flex;
+	width: 100%;
+	height: 100%;
+	outline: solid 2px #000000;
+	z-index: 300;
+	vertical-align: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.itemModalEquipo:nth-child(1){
+    grid-column: 1/ span 2;
+    grid-row: 1 / span 1;
+    
+}
+
+
+/*----------------------------------------------------------------------------------------------*/
+
+
+
+
+/* MODAL MOCHILA */
+.gridModalMochila{
+    display: none;
+	width: 66.66vW ;
+	height: 83.25vh;
+	grid-template-columns: repeat(6, 16.65%);
+    grid-template-rows: repeat(15, 6.66%);
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 14.5%;
+    outline: solid #000000 19px;
+    border: solid #ffffff 19px;
+    background-color: #ffffff;
+    text-align: center;
+    z-index: 500;
+    
+    
+}
+
+.itemModalMochila{
+    display: flex;
+	width: 100%;
+	height: 100%;
+	outline: solid 2px #000000;
+	z-index: 300;
+	vertical-align: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+
+.itemModalMochila:nth-child(2){
+    grid-column: 2/ span 4;
+    grid-row: 1 / span 1;
+    
+}
+
+.itemModalMochila:nth-child(5){
+    grid-column: 2/ span 4;
+    grid-row: 2 / span 1;
+    
+}
+
+.itemModalMochila:nth-child(8){
+    grid-column: 2/ span 4;
+    grid-row: 3 / span 1;
+    
+}
+
+.itemModalMochila:nth-child(11){
+    grid-column: 2/ span 4;
+    grid-row: 4 / span 1;
+    
+}
+
+.itemModalMochila:nth-child(14){
+    grid-column: 2/ span 4;
+    grid-row: 5 / span 1;
+    
+}
+
+.itemModalMochila:nth-child(17){
+    grid-column: 2/ span 4;
+    grid-row: 6 / span 1;
+    
+}
+
+.itemModalMochila:nth-child(20){
+    grid-column: 2/ span 4;
+    grid-row: 7 / span 1;
+    
+}
+
+.itemModalMochila:nth-child(23){
+    grid-column: 2/ span 4;
+    grid-row: 8 / span 1;
+    
+}
+
+.itemModalMochila:nth-child(26){
+    grid-column: 2/ span 4;
+    grid-row: 9 / span 1;
+    
+}
+
+.itemModalMochila:nth-child(29){
+    grid-column: 2/ span 4;
+    grid-row: 10 / span 1;
+    
+}
+
+.itemModalMochila:nth-child(29){
+    grid-column: 2/ span 4;
+    grid-row: 10 / span 1;
+    
+}
+
+.itemModalMochila:nth-child(32){
+    grid-column: 2/ span 4;
+    grid-row: 11 / span 1;
+    
+}
+
+.itemModalMochila:nth-child(35){
+    grid-column: 2/ span 4;
+    grid-row: 12 / span 1;
+    
+}
+
+.itemModalMochila:nth-child(37){
+    grid-column: 1/ span 3;
+    grid-row: 13 / span 1;
+    
+}
+
+.itemModalMochila:nth-child(38){
+    grid-column: 4/ span 3;
+    grid-row: 13 / span 1;
+    
+}
+
+
+/* FIN MODAL MOCHILA */ 
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+
+
+
+/* MODAL HECHIZOS */
+.gridModalHechizos{
+    display: none;
+	width: 66.66vW ;
+	height: 83.25vh;
+	grid-template-columns: repeat(6, 16.65%);
+    grid-template-rows: repeat(15, 6.66%);
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 14.5%;
+    outline: solid #000000 19px;
+    border: solid #ffffff 19px;
+    background-color: #ffffff;
+    text-align: center;
+    z-index: 300
+    ;
+    
+    
+}
+
+.itemModalHechizos{
+    display: flex;
+	width: 100%;
+	height: 100%;
+	outline: solid 2px #000000;
+	z-index: 300;
+	vertical-align: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+
+.itemModalHechizos:nth-child(2){
+    grid-column: 2/ span 4;
+    grid-row: 1 / span 1;
+    
+}
+
+.itemModalHechizos:nth-child(5){
+    grid-column: 2/ span 4;
+    grid-row: 2 / span 1;
+    
+}
+
+.itemModalHechizos:nth-child(8){
+    grid-column: 2/ span 4;
+    grid-row: 3 / span 1;
+    
+}
+
+.itemModalHechizos:nth-child(11){
+    grid-column: 2/ span 4;
+    grid-row: 4 / span 1;
+    
+}
+
+.itemModalHechizos:nth-child(14){
+    grid-column: 2/ span 4;
+    grid-row: 5 / span 1;
+    
+}
+
+.itemModalHechizos:nth-child(17){
+    grid-column: 2/ span 4;
+    grid-row: 6 / span 1;
+    
+}
+
+.itemModalHechizos:nth-child(20){
+    grid-column: 2/ span 4;
+    grid-row: 7 / span 1;
+    
+}
+
+.itemModalHechizos:nth-child(23){
+    grid-column: 2/ span 4;
+    grid-row: 8 / span 1;
+    
+}
+
+.itemModalHechizos:nth-child(26){
+    grid-column: 2/ span 4;
+    grid-row: 9 / span 1;
+    
+}
+
+.itemModalHechizos:nth-child(29){
+    grid-column: 2/ span 4;
+    grid-row: 10 / span 1;
+    
+}
+
+.itemModalHechizos:nth-child(29){
+    grid-column: 2/ span 4;
+    grid-row: 10 / span 1;
+    
+}
+
+.itemModalHechizos:nth-child(32){
+    grid-column: 2/ span 4;
+    grid-row: 11 / span 1;
+    
+}
+
+.itemModalHechizos:nth-child(35){
+    grid-column: 2/ span 4;
+    grid-row: 12 / span 1;
+    
+}
+
+.itemModalHechizos:nth-child(38){
+    grid-column: 2/ span 4;
+    grid-row: 13 / span 1;
+    
+}
+
+.itemModalHechizos:nth-child(41){
+    grid-column: 2/ span 4;
+    grid-row: 14 / span 1;
+    
+}
+
+.itemModalHechizos:nth-child(44){
+    grid-column: 2/ span 4;
+    grid-row: 15 / span 1;
+    
+}
+
+
+
+
+
+/* FIN MODAL HECHIZOS */ 
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+/* MODAL HABILIDADES */
+.gridModalHabilidades{
+    display: none;
+	width: 66.66vW ;
+	height: 83.25vh;
+	grid-template-columns: repeat(6, 16.65%);
+    grid-template-rows: repeat(15, 6.66%);
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 14.5%;
+    outline: solid #000000 19px;
+    border: solid #ffffff 19px;
+    background-color: #ffffff;
+    text-align: center;
+    z-index: 500;
+    
+    
+}
+
+.itemModalHabilidades{
+    display: flex;
+	width: 100%;
+	height: 100%;
+	outline: solid 2px #000000;
+	z-index: 300;
+	vertical-align: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+
+.itemModalHabilidades:nth-child(2){
+    grid-column: 2/ span 4;
+    grid-row: 1 / span 1;
+    
+}
+
+.itemModalHabilidades:nth-child(5){
+    grid-column: 2/ span 4;
+    grid-row: 2 / span 1;
+    
+}
+
+.itemModalHabilidades:nth-child(8){
+    grid-column: 2/ span 4;
+    grid-row: 3 / span 1;
+    
+}
+
+.itemModalHabilidades:nth-child(11){
+    grid-column: 2/ span 4;
+    grid-row: 4 / span 1;
+    
+}
+
+.itemModalHabilidades:nth-child(14){
+    grid-column: 2/ span 4;
+    grid-row: 5 / span 1;
+    
+}
+
+.itemModalHabilidades:nth-child(17){
+    grid-column: 2/ span 4;
+    grid-row: 6 / span 1;
+    
+}
+
+.itemModalHabilidades:nth-child(20){
+    grid-column: 2/ span 4;
+    grid-row: 7 / span 1;
+    
+}
+
+.itemModalHabilidades:nth-child(23){
+    grid-column: 2/ span 4;
+    grid-row: 8 / span 1;
+    
+}
+
+.itemModalHabilidades:nth-child(26){
+    grid-column: 2/ span 4;
+    grid-row: 9 / span 1;
+    
+}
+
+.itemModalHabilidades:nth-child(29){
+    grid-column: 2/ span 4;
+    grid-row: 10 / span 1;
+    
+}
+
+.itemModalHabilidades:nth-child(29){
+    grid-column: 2/ span 4;
+    grid-row: 10 / span 1;
+    
+}
+
+.itemModalHabilidades:nth-child(32){
+    grid-column: 2/ span 4;
+    grid-row: 11 / span 1;
+    
+}
+
+.itemModalHabilidades:nth-child(35){
+    grid-column: 2/ span 4;
+    grid-row: 12 / span 1;
+    
+}
+
+.itemModalHabilidades:nth-child(38){
+    grid-column: 2/ span 4;
+    grid-row: 13 / span 1;
+    
+}
+
+.itemModalHabilidades:nth-child(41){
+    grid-column: 2/ span 4;
+    grid-row: 14 / span 1;
+    
+}
+
+.itemModalHabilidades:nth-child(44){
+    grid-column: 2/ span 4;
+    grid-row: 15 / span 1;
+    
+}
+
+
+
+
+
+
+
+/* FIN MODAL HABILIDADES */ 
+
+
+
+
+
+/* ARMADURA */
+.gridModalArmadura {
+    display: none;
+	width: 33.33vW ;
+	height: 11.11vh;
+	grid-template-columns: 33.33%  33.33%  33.33%;
+    grid-template-rows: 50% 50% ;
+    position: absolute;
+    margin-left: 33.33%;
+    margin-top: 65%;
+    outline: solid #000000 19px;
+    border: solid #ffffff 19px;
+    text-align: center;
+    z-index: 300;
+    
+    
+}
+
+.itemModalArmadura{
+    display: flex;
+	width: 100%;
+	height: 100%;
+	outline: solid 2px #000000;
+	z-index: 300;
+	vertical-align: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.itemModalArmadura:nth-child(1){
+    grid-column: 1/ span 2;
+    grid-row: 1 / span 1;
+    
+}
+/* FIN ARMADURA */
+
+
+
+
+
+
+.gridModalAura {
+    display: grid;
+	width: 11.11vW ;
+	height: 5.55vh;
+	grid-template-columns: 100%;
+    grid-template-rows: 100% ;
+    position: absolute;
+    margin-left: 88.93vw;
+    margin-top: 61.1vh;
+    outline: solid #000000 2px;
+    text-align: center;
+    z-index: 300;
+    
+    
+}
+
+.itemModalAura{
+    display: flex;
+	width: 100%;
+	height: 100%;
+	outline: solid 2px #000000;
+	z-index: 300;
+	vertical-align: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+
+
